@@ -50,7 +50,7 @@ function printQuote() {
   <p class= "source"> ${printQuoteObject.source}`;
 
   if (printQuoteObject.citation) {
-    html += `<span class='tags'>${printQuoteObject.citation}</span>`;
+    html += `<span class='citation'>${printQuoteObject.citation}</span>`;
   }  
   if(printQuoteObject.year) {
     html += `<span class='year'>${printQuoteObject.year}</span>`;
