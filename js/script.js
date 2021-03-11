@@ -58,9 +58,6 @@ function printQuote() {
   `</p>`
   
   return document.getElementById('quote-box').innerHTML = html;
-
-console.log(printQuote());
-
 };
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false)
